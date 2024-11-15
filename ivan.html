@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>My Profile</title>
+    <style>
+    .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+    }
+    *{
+        text-decoration: none;
+    }
+        body {
+            font-family: Garamond, serif;
+            margin: 0;
+            height: 100%;
+            padding: 0;
+            background-color: #f65555;
+        }
+        .container {
+            width: 80%;
+            max-width: 500px;
+            margin: 10px auto;
+            border-radius: 40px;
+            padding: 30px;
+            background-color: hsl(0, 90%, 89%, 0.5);
+            border: 5px solid white;
+        }
+        h1, h2 {
+            text-align: center;
+            text-decoration: underline;
+            color: #000000;
+        }
+        .profile-pic {
+            display: block;
+            max-width: 170px;
+            height: auto;
+            border-radius: 90%;
+            margin: auto;
+            border: 2px solid #fccaca;
+        }
+        .section {
+            margin: 0px 0;
+            text-align: center;
+        }
+        .info-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        .info-table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .info-table td:first-child {
+            font-weight: bold;
+            color: #404040;
+            text-align: right;
+        }
+        audio {
+                margin-top: 10px;
+        }
+        footer {
+            margin: 20px 0;
+            text-align: center;
+            color: #808080;
+        }
+
+    </style>
+</head>
+<body>
+         <!--BG.vid-->
+            <iframe class="background-video" src="https://gifer.com/embed/75Z8" width="100%" height="100%" style='position:fixed;top:0;left:0;' frameBorder="0" allowFullScreen></iframe>
+    
+    <div class="container">   
+        <h1>My Profile</h1>   
+            
+        <!-- Profile Picture Section -->
+        <div class="section">
+           <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t39.30808-6/302803269_1013507389366359_7180754695495956258_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEkKykmF-g34WRUAP2cVqIW4bLqMoXmO8ThsuoyheY7xMS9SB0W0TkJMFR4Af17l-EOJ-waN8PXsNY92LyaZqTr&_nc_ohc=Xo3gXQHQOXoQ7kNvgEu08ou&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&_nc_gid=Au2jDCjcIJPuuNwwBaGcjya&oh=00_AYA64wmIxr3AESEqB6Qd5KFU8KaKjbUD3cMFIOzqO1Mp_w&oe=6739EB0D" alt="Profile Picture" class="profile-pic">
+        </div>
+
+        <!-- Profile Introduction Section -->
+        <div class="section">
+          <h2>Introduction</h2>
+          <p>Hello! I'm <b style="color: #000;">Ivan Barnedo</b>
+          <p>an individual of ACSHS . I got hook into programming as when I'm growing up I always how do games and apps work. Wanting to make my own sites/apps is one of my goal as an ICT individual.</p>
+          <p>That's all I have to say, Goodbye.</p>
+        </div>
+
+        <!-- Personal Information Section -->
+        <div class="section">
+            <h2>Personal Information</h2>
+            <table class="info-table">
+                <tr>
+                    <td>Full Name:</td>
+                    <td>BARNEDO, IVAN TABUADA.</td>
+                </tr> 
+                <tr>
+                    <td>Vicinity:</td>
+                    <td>Antipolo City</td>
+                </tr>
+                <tr>
+                    <td>Occupation:</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td>Guitar,Sports & Reading</td>
+                </tr>
+            </table>
+        </div>
+         
+        <!-- Audio Section -->
+        <div class="section">
+            <h2>Favorite Song</h2>
+            <audio controls>
+                <source src="content://com.nemo.vidmate.authority.dynamic/com.nemo.vidmate.swof_provider/external_storage_root/VidMate/download/Fire_Force_OP_%5B_INFERNO%5D_Lyrics(128k).m4a"type="audio/mpeg">
+              </audio>
+        </div>
+    </div>
+</body>
+<footer> 
+    <p><h6>&copy; 2024 Ivan Barnedo. All rights reserved.</h6></p>
+ </footer>
+</html>
